@@ -1,0 +1,117 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 16px;
+    border-radius: 50px;
+}
+#nav i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    
+
+}
+#nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+
+}
+#btn2{
+    color: #fff;
+    background-color: orangered !important;
+    border: none !important;
+}
+#main >h1{
+    font-size: 130px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    
+}
+img {
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#leftSideText{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#RightSide{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    font-size: 17px;
+    padding: 2px 12px;
+}
+#lastText{
+    position: absolute;
+    bottom: 1.5%;
+    right: 2%;
+    font-weight: 400;
+    
+}
